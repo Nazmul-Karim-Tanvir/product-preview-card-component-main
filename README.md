@@ -29,6 +29,8 @@ Users should be able to:
 
 ###  Challange screenshot
 
+ACTIVE STATUS ![](/design/active-states.jpg)
+
 DESKTOP VIEW ![](/design/desktop-design.jpg)
 
 MOBILE VIEW ![](/design/mobile-design.jpg)
