@@ -38,7 +38,7 @@ MOBILE VIEW ![](/design/mobile-design.jpg)
 
 ### Solution links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Nazmul-Karim-Tanvir/product-preview-card-component-main#table-of-contents)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
