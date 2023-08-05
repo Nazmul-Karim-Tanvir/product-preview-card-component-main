@@ -6,8 +6,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Challange screenshot](#Challange-screenshot)
+  - [Solution links](#Solution-links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,19 +27,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+###  Challange screenshot
 
-![](./screenshot.jpg)
+DESKTOP VIEW ![](/design/desktop-design.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+MOBILE VIEW ![](/design/mobile-design.jpg)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
+### Solution links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
@@ -48,16 +43,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- HTML5 
+- CSS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
@@ -65,9 +54,33 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
+
+ - Some HTML code I'm proud of    
+
+
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<picture class="product__img">
+        <source srcset="images/image-product-desktop.jpg" media="(min-width:600px)">
+        <img src="images/image-product-mobile.jpg" alt=" A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.">
+      </picture>
 ```
+**In this section , The `picture` tag is used to specify multiple sources for an image, allowing the browser to choose the most appropriate source based on the device's screen size and resolution. The `source` tag specifies the image source for desktop devices with a minimum width of 600px, while the `img` tag specifies the image source for mobile devices. The `alt` attribute provides a description of the image. This code allows for responsive design and improved user experience.**
+<hr>
+
+```html
+<div class="flex-group">
+          <p class="product__price">
+            <span class="visually-hidden"> Current price:</span>
+            $149.99
+          </p>
+          <p class="product__original-price">
+            <span class="visually-hidden"> Old price:</span>
+            <s>$169.99</s>
+          </p>
+        </div>
+```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
@@ -98,9 +111,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+
+- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
@@ -108,4 +122,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
