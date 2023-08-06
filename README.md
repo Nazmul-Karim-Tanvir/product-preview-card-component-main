@@ -38,7 +38,7 @@ MOBILE VIEW ![](/design/mobile-design.jpg)
 
 ### Solution links
 
-- Solution URL: [Github](https://github.com/Nazmul-Karim-Tanvir/product-preview-card-component-main#table-of-contents)
+- Solution URL: [Github](https://github.com/Nazmul-Karim-Tanvir/product-preview-card-component-main)
 - Live Site URL: [](https://your-live-site-url.com)
 
 ## My process
@@ -52,22 +52,31 @@ MOBILE VIEW ![](/design/mobile-design.jpg)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project, I developed a website that features a shopping product card using HTML5 and CSS. I did not use any framework, but instead relied on my own knowledge and creativity to design and implement the layout, style, and functionality of the website. I learned how to center a component in the website using the flexbox model, how to use semantic variable naming system using root, and how to use images properly in the website and make them responsive. This project helped me improve my web development skills and gain more confidence in creating attractive and user-friendly websites.
 
-To see how you can add code snippets, see below:
 
 
  - Some HTML code I'm proud of    
 
 
 ```html
-<picture class="product__img">
+      <picture class="product__img">
         <source srcset="images/image-product-desktop.jpg" media="(min-width:600px)">
         <img src="images/image-product-mobile.jpg" alt=" A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.">
       </picture>
 ```
-**In this section , The `picture` tag is used to specify multiple sources for an image, allowing the browser to choose the most appropriate source based on the device's screen size and resolution. The `source` tag specifies the image source for desktop devices with a minimum width of 600px, while the `img` tag specifies the image source for mobile devices. The `alt` attribute provides a description of the image. This code allows for responsive design and improved user experience.**
+**In this html section , The `picture` tag is used to specify multiple sources for an image, allowing the browser to choose the most appropriate source based on the device's screen size and resolution. The `source` tag specifies the image source for desktop devices with a minimum width of 600px, while the `img` tag specifies the image source for mobile devices. The `alt` attribute provides a description of the image. This code allows for responsive design and improved user experience.**
+```css
+    @media (min-width:600px) {
+      .product{
+        --content-padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+      } 
+    }
+```
+**This css part is used for dividing the content into two part when device become larger then 600px**
+
 <hr>
 
 ```html
@@ -82,46 +91,50 @@ To see how you can add code snippets, see below:
           </p>
         </div>
 ```
+``` css
+    .flex-group{
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+    }
+
+    .visually-hidden:not(:focus):not(:active) {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+**In this section, I added the product price based on the requirement and used CSS to display the new price and the old price in the same line. I also used the visually-hidden class to hide the span element that contains the text "New" and "Old". This way, the screen reader will be able to read the document and inform the blind users which price is new and which one is old, but visually, the users will only see the prices. This technique improves the accessibility and usability of the website for people with visual impairments.**
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+The shopping card displays the product image, name, category, price, and a button to add the product to the cart. The card also uses some CSS techniques to enhance the appearance and functionality of the card, such as border-radius, box-shadow, flexbox, and hover effects. The card is responsive and adapts to different screen sizes and devices.That is why this project can use as reference for a shopping website. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell](https://www.youtube.com/watch?v=B2WL6KkqhLQ) - His youtube tutorial helped me a lot to complete this project and learn new topics.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 
-- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
-- GitHub - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- LinkedIn - [@nazmul-karim-tanvir-795563159](https://www.linkedin.com/feed/)
+- GitHub - [Nazmul-Karim-Tanvir ](https://github.com/Nazmul-Karim-Tanvir)
+- Frontend Mentor - [@Nazmul-Karim-Tanvir](https://www.frontendmentor.io/profile/Nazmul-Karim-Tanvir)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- [Kevin Powell](https://www.youtube.com/watch?v=B2WL6KkqhLQ) - His youtube tutorial helped me a lot to complete this project and learn new topics.
+- [Bohubrihi](https://bohubrihi.com/) - It helped me a lot learning the fundamentals of HTML and CSS
 
 
