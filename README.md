@@ -7,7 +7,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Challange screenshot](#Challange-screenshot)
-  - [Solution links](#Solution-links)
+  - [Solution links and screenshots](#Solution-links-and-screenshots)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,17 +27,22 @@ Users should be able to:
 
 ###  Challange screenshot
 
-ACTIVE STATUS ![](/design/active-states.jpg)
+- ACTIVE STATUS ![](/design/active-states.jpg)
 
-DESKTOP VIEW ![](/design/desktop-design.jpg)
+- DESKTOP VIEW ![](/design/desktop-design.jpg)
 
-MOBILE VIEW ![](/design/mobile-design.jpg)
+- MOBILE VIEW ![](/design/mobile-design.jpg)
 
 
-### Solution links
+### Solution links and screenshots
 
 - Solution URL: [Github](https://github.com/Nazmul-Karim-Tanvir/product-preview-card-component-main)
 - Live Site URL: [](https://your-live-site-url.com)
+
+- Solution screenshot
+  - DESKTOP VIEW ![](/solution-image/desktop%20view.JPG)
+
+  - MOBILE VIEW ![](/solution-image/mobile%20view.JPG)
 
 ## My process
 
